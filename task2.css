@@ -1,0 +1,39 @@
+#bgd{
+    width:1350px;
+    height:750px;
+  background: url("quanta.jpg");  
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+img{
+    width:100px;
+    height:80px;
+    float:left;
+}
+h2{
+    padding-right:50px;
+    text-shadow:#ccc 5px 5px ;
+}
+#headerbar {
+    position: fixed;
+    transition:0.3s; 
+    top:0;
+    width: 100%;
+    display: block;
+  }
+  #bgd2{
+      background:url("BBq.gif");
+      background-repeat:no-repeat;
+      background-size:cover;
+    }
+    h4{
+        text-align: center;
+        padding:5px;
+    }
+#table
+{
+    margin-left:50px;
+}
+.fa{
+    font-size:30px; 
+}
