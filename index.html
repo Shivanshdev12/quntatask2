@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="task2.css" type="text/css">
+        <script>
+            var prevpos=window.pageYOffset;
+            window.onscroll=function()
+            {
+                var currentpos=window.pageYOffset;
+                if(currentpos>prevpos)
+                document.getElementById("headerbar").style.top="0";
+                else
+                document.getElementById("headerbar").style.top="-100px";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="bg bg-light" id="headerbar">
+        <div class="container">
+        <img src="quanta1.jpeg">
+        <h2 class="display-3">Quanta</h2>
+        </div>
+        </div>
+        <div id="bgd">
+        </div>
+        <div id="bgd2">
+                <div>
+                        <h1 style="text-align:center;color:white;text-shadow:#13635e 2px 2px;">
+                         Latest News
+                        </h1>
+                      </div> 
+        <div class="container">
+            <div class="bg bg-light" style="padding:5px;">
+                    <div class="card-deck">
+                            <div class="card">
+                             <img src="sm2.jpeg" alt="hackathon" style="width:100%;height:200px;">
+                             <div class="card-body">
+                             <h4 class="card-title">Smart India hackathon</h4>
+                             <p class="card-text">Find more info here.</p>   
+                             <a href="#" class="fa fa-envelope"></a>
+                             <a href="#" class="fa fa-trophy" style="float:right;"></a>
+                             </div>
+                            </div>
+                            <div class="card">
+                                <img src="social.png" alt="social" style="width:100%;height:200px;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Social Track Winners!!</h4>
+                                    <p class="card-text"><button class="btn btn-danger">Login</button></p>
+                                    <a href="#" class="fa fa-envelope"></a>
+                                    <a href="#" class="fa fa-certificate" style="float:right;"></a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="eyantra.jpeg" alt="eyantra" style="width:100%;height:200px;">
+                                <div class="card-body">
+                                 <h4 class="card-title">E-yantra finalist and semi-finalist.</h4>
+                                 <a href="#" class="fa fa-envelope"></a>
+                                 <a href="#" class="fa fa-certificate" style="float:right;"></a>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+                
+                <button class="btn btn-info m-3">Read More</button>
+        </div>
+       </div>
+       <div>
+           <div class="bg-danger">
+           <h4 class="display-3"><strong>Upcoming Events</strong></h4>
+        </div>
+        <div id="table">
+           <table class="table table-hover table-borderless">
+               <tbody>
+                   <tr>
+                       <td><strong>6 Jan</strong></td>
+                       <td>Manual Robotics/<i>Jss Academy of Technical Education</i></td>
+                       <td><button class="btn btn-info">Open</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>TBD</strong></td>
+                        <td>Technical Hunt</td>
+                        <td><button class="btn btn-info">Open</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>12 Sep</strong></td>
+                        <td>TECH-BIAS</td>
+                        <td><button class="btn btn-info">Open</button></td>
+                    </tr>
+                    <tr>
+                        <td><Strong>27 Sep</Strong></td>
+                        <td>LFR robot workshop(Line following robot)</td>
+                        <td><button class="btn btn-info">Open</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>4 Oct</strong></td>
+                        <td>Quanta Recruitments</td>
+                        <td><button class="btn btn-info">Open</button></td>
+                    </tr>
+               </tbody>
+           </table> 
+        </div>
+       </div>
+    </body>
+</html>
